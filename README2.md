@@ -9,7 +9,7 @@ README Generator
 
 ## Description 
 
-This app generates a readme based on the project
+This app generates a readme based on the project using node.js
 
 
 
@@ -23,7 +23,8 @@ This app generates a readme based on the project
 
 *[contributions](#contributions) 
 
-*[testing](#testing)
+*[testing](#testing) 
+
 *[license](#license) 
 
 *[questions](#questions) 
