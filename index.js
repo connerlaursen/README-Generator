@@ -1,3 +1,5 @@
+// using inquirer package per acceptance criteria
+
 const inquirer = require('inquirer');
 
 const fs=require("fs")
@@ -7,7 +9,7 @@ const path=require("path")
 const generateMarkdown=require("./generateMarkdown")
 
 
-
+// list of prompts for user to answer in terminal using node
 const userQuestions = [
 {
     type:"input",
@@ -67,9 +69,10 @@ const userQuestions = [
 
 function writeToFile (fileName, data){
 return fs.writeFileSync(path.join(fileName), data)
-// add process.cwd () if this doesnt work
+// tutor said add process.cwd () if this doesnt work
 }
 
+// function to generate readme using the markdown generation in seperate js file named generateMarkown.js
 function init(){
 inquirer.prompt(userQuestions).then((userData)=>{
 console.log("Generating README...")
