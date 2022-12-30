@@ -22,13 +22,13 @@ const userQuestions = [
 },
 {
     type:"input",
-    name:"projectName",
+    name:"title",
     message:"What is your project name?"
 
 },
 {
     type:"input",
-    name:"projectDescription",
+    name:"description",
     message:"Write a brief description of your project"
 
 },
@@ -39,9 +39,28 @@ const userQuestions = [
     choices:["MIT", "Apache2.0", "JPL", "BSD3", "none"]
 },
 {
+    type:"list",
+    name:"install",
+    message:"What command should be run to install dependencies?",
+    choices: ["npm install"]
+
+},
+{
     type:"input",
-    name:"dependency",
-    message:"What command should be run to install dependencies?"
+    name:"usage",
+    message:"What does the user need to know about using the repo?"
+
+},
+{
+    type:"input",
+    name:"contribute",
+    message:"What does the user need to know about contributing to the repo?"
+
+},
+{
+    type:"input",
+    name:"tests",
+    message:"What does the user need to know about testing?"
 
 }
     ]
@@ -53,7 +72,7 @@ return fs.writeFileSync(path.join(fileName), data)
 
 function init(){
 inquirer.prompt(userQuestions).then((userData)=>{
-console.log("generating readme")
+console.log("Generating README...")
 writeToFile("README2.md", generateMarkdown({...userData}))
 
 })
