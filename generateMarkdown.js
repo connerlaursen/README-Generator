@@ -31,7 +31,7 @@ ${data.description}\n
 *[installation](#installation) \n
 *[usage](#usage) \n
 *[contributions](#contributions) \n
-*[testing](#testing)
+*[testing](#testing) \n
 *[license](#license) \n
 *[questions](#questions) \n
 \n
