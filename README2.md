@@ -1,69 +1,68 @@
 
-    ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-    # Title 
+# Title 
 
-    README Generator
+README Generator
 
-    
 
-    ## Description 
 
-    This project generates a README file automatically
+## Description 
 
-    
+This app generates a readme based on the project
 
-    ## Table Of Contents 
 
-    *[description](#description) 
 
-    *[installation](#installation) 
+## Table Of Contents 
 
-    *[usage](#usage) 
+*[description](#description) 
 
-    *[contributions](#contributions) 
+*[installation](#installation) 
 
-    *[testing](#testing)
-    *[license](#license) 
+*[usage](#usage) 
 
-    *[questions](#questions) 
+*[contributions](#contributions) 
 
-    
+*[testing](#testing)
+*[license](#license) 
 
-    ## Installation 
+*[questions](#questions) 
 
-    The command that should be run to install dependencies is npm install 
 
-    
 
-    ## Usage 
+## Installation 
 
-    This is what the user needs to know about using the repo: use how you wish 
+The command that should be run to install dependencies is npm install 
 
-    
 
-    ## Contributions 
 
-    This is what the user needs to know about contributing to the repo: authorized contributors only 
+## Usage 
 
-    
+This is what the user needs to know about using the repo: use how you wish 
 
-    ## Testing 
 
-    This is what the user needs to know about testing the repo: test how you wish 
 
-    
+## Contributions 
 
-    ## License 
+This is what the user needs to know about contributing to the repo: authorized contributors only 
 
-    The license being used for the project is MIT ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-    
 
-    ## Questions 
+## Testing 
 
-    If you have any questions, contact me directly at: connerlaursenk@gmail.com 
+This is what the user needs to know about testing the repo: test how you wish 
 
-    My github profile is at: https://www.github.com/connerlaursen 
 
-    
+
+## License 
+
+The license being used for the project is MIT ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
+
+
+
+## Questions 
+
+If you have any questions, contact me directly at: connerlaursenk@gmail.com 
+
+My github profile is at: https://www.github.com/connerlaursen 
+
